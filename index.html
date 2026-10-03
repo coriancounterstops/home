@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corian Countertops | Installation, Repair & Custom Fabrication</title>
+<meta name="description" content="Explore Corian countertops, installation, repair, custom fabrication, replacement, maintenance and Michigan countertop services.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://coriancounterstops.github.io/Corian-Counter-Tops/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Corian Countertops | Complete Guide">
+<meta property="og:description" content="A modern resource for Corian countertops, installation, repair, fabrication and replacement.">
+<meta property="og:url" content="https://coriancounterstops.github.io/Corian-Counter-Tops/">
+
+<style>
+:root{
+ --dark:#15241e;--green:#315446;--sage:#698275;--cream:#f6f4ed;
+ --soft:#edf2ee;--white:#fff;--text:#26352f;--muted:#6b7872;
+ --line:#dfe5e0;--shadow:0 18px 55px rgba(21,36,30,.12);
+ --radius:24px;--max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text);line-height:1.7;background:#fff}
+a{text-decoration:none;color:inherit}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.container{width:min(var(--max),92%);margin:auto}
+header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.94);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.2rem;font-weight:900;letter-spacing:-.04em}
+.logo span{color:var(--sage)}
+.nav-links{display:flex;gap:7px;align-items:center;list-style:none}
+.nav-links a{padding:10px 14px;border-radius:12px;font-weight:750;font-size:.94rem}
+.nav-links a:hover,.nav-links a.active{background:var(--cream);color:var(--green)}
+.quote{background:var(--green)!important;color:#fff!important}
+.menu{display:none;border:0;background:transparent;font-size:1.5rem;cursor:pointer}
+
+.hero{background:linear-gradient(125deg,var(--soft),#faf8f1);padding:75px 0}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--green);font-weight:850;text-transform:uppercase;letter-spacing:.13em;font-size:.75rem;margin-bottom:17px}
+.eyebrow:before{content:"";height:2px;width:28px;background:var(--sage)}
+h1,h2,h3{line-height:1.13;letter-spacing:-.04em;color:var(--dark)}
+h1{font-size:clamp(2.7rem,6vw,5.2rem);margin-bottom:22px}
+h2{font-size:clamp(2rem,4vw,3.15rem);margin-bottom:18px}
+h3{font-size:1.3rem;margin-bottom:10px}
+.hero p,.section-head p{font-size:1.08rem;color:var(--muted);max-width:700px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:29px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:13px;border:1px solid var(--line);font-weight:850;cursor:pointer}
+.btn-primary{background:var(--green);border-color:var(--green);color:#fff}
+.btn-light{background:#fff}
+.hero-image{height:540px;border-radius:32px;overflow:hidden;box-shadow:var(--shadow);position:relative}
+.hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(0,0,0,.35))}
+.hero-caption{position:absolute;bottom:24px;left:25px;color:#fff;z-index:2;font-weight:800;font-size:1.05rem}
+
+.section{padding:85px 0}
+.alt{background:var(--cream)}
+.section-head{max-width:750px;margin-bottom:38px}
+.badge{display:inline-block;background:#e7eee9;color:var(--green);padding:7px 12px;border-radius:999px;font-size:.76rem;font-weight:850;margin-bottom:16px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:0 8px 30px rgba(21,36,30,.05);transition:.25s}
+.card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.card-img{height:225px}
+.card-body{padding:25px}
+.card-body p{color:var(--muted);margin-bottom:17px}
+.link{color:var(--green);font-weight:850}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.checks{list-style:none;margin-top:22px}
+.checks li{padding:10px 0 10px 29px;position:relative}
+.checks li:before{content:"✓";position:absolute;left:0;color:var(--sage);font-weight:900}
+.gallery{display:grid;grid-template-columns:1.2fr .8fr;grid-template-rows:225px 225px;gap:14px}
+.gallery figure{border-radius:20px;overflow:hidden}
+.gallery figure:first-child{grid-row:1/3}
+
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}
+.feature{padding:26px;border:1px solid var(--line);border-radius:20px;background:#fff}
+.number{width:40px;height:40px;border-radius:12px;background:#e7eee9;color:var(--green);display:grid;place-items:center;font-weight:900;margin-bottom:17px}
+.feature p{color:var(--muted);font-size:.95rem}
+
+.services{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.service{padding:20px;border:1px solid var(--line);border-radius:17px;background:#fff;font-weight:800;transition:.2s}
+.service:hover{border-color:var(--sage);transform:translateY(-3px)}
+
+.resource-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.resource{padding:17px;border:1px solid var(--line);border-radius:14px;background:#fff;font-weight:750}
+.resource:hover{border-color:var(--sage)}
+
+.contact-box{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px}
+.form{background:#fff;padding:30px;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow)}
+label{display:block;font-weight:800;margin-bottom:7px}
+input,select,textarea{width:100%;font:inherit;padding:13px 14px;border:1px solid #ccd6d0;border-radius:12px;margin-bottom:17px;background:#fff}
+textarea{min-height:145px;resize:vertical}
+.small{font-size:.9rem;color:var(--muted)}
+
+.faq{max-width:850px}
+details{border-top:1px solid var(--line);padding:19px 0}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{font-weight:850;cursor:pointer}
+
+footer{background:var(--dark);color:#dce7e1;padding:55px 0 25px}
+.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:45px}
+footer h3{color:#fff;font-size:1rem}
+footer p,footer a{color:#b9c8c0}
+footer ul{list-style:none}
+footer li{margin:8px 0}
+.copyright{border-top:1px solid rgba(255,255,255,.14);margin-top:35px;padding-top:20px;color:#98aaa1;font-size:.88rem}
+
+@media(max-width:900px){
+ .hero-grid,.split,.contact-box{grid-template-columns:1fr}
+ .cards{grid-template-columns:1fr 1fr}
+ .features{grid-template-columns:1fr 1fr}
+ .services{grid-template-columns:1fr 1fr}
+ .hero-image{height:400px}
+ .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:650px){
+ .nav{min-height:68px}
+ .menu{display:block}
+ .nav-links{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);padding:12px 4%;flex-direction:column;align-items:stretch}
+ .nav-links.open{display:flex}
+ .nav-links a{display:block}
+ .quote{display:none!important}
+ .hero{padding:55px 0}
+ .section{padding:62px 0}
+ .cards,.features,.services,.resource-grid,.footer-grid{grid-template-columns:1fr}
+ .gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 150px}
+ .gallery figure:first-child{grid-column:1/3;grid-row:auto}
+}
+</style>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"WebSite",
+ "name":"Corian Countertops",
+ "url":"https://coriancounterstops.com/",
+ "description":"Information about Corian countertops, installation, repair, custom fabrication and replacement."
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Article",
+ "headline":"Corian Countertops: A Complete Guide for Homeowners",
+ "description":"A practical guide to Corian countertops, including design, durability, maintenance, installation, repair and replacement.",
+ "mainEntityOfPage":{"@type":"WebPage","@id":"https://coriancounterstops.github.io/Corian-Counter-Tops/"},
+ "author":{"@type":"Organization","name":"Corian Countertops"},
+ "publisher":{"@type":"Organization","name":"Corian Countertops","url":"https://coriancounterstops.com/"}
+}
+</script>
+</head>
+
+<body>
+
+<header>
+ <div class="container nav">
+  <a class="logo" href="#home">Corian <span>Countertops</span></a>
+  <button class="menu" aria-label="Open navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  <ul class="nav-links">
+   <li><a class="active" href="#home">Home</a></li>
+   <li><a href="#about">About</a></li>
+   <li><a href="#services">Services</a></li>
+   <li><a href="#resources">Resources</a></li>
+   <li><a href="#contact" class="quote">Contact Us</a></li>
+  </ul>
+ </div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+ <div class="container hero-grid">
+  <div>
+   <span class="eyebrow">Solid Surface • Design • Performance</span>
+   <h1>Corian Countertops for Beautiful Everyday Spaces</h1>
+   <p>Discover practical information about Corian countertops, including design options, maintenance, installation, repair, custom fabrication and replacement.</p>
+   <div class="actions">
+    <a class="btn btn-primary" href="https://coriancounterstops.com/">Visit Main Website</a>
+    <a class="btn btn-light" href="#contact">Contact Us</a>
+   </div>
+  </div>
+  <div class="hero-image">
+   <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85" alt="Modern kitchen with elegant countertop" loading="eager">
+   <div class="hero-caption">Clean lines. Custom details. Everyday function.</div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="about">
+ <div class="container">
+  <div class="section-head">
+   <span class="badge">About Corian</span>
+   <h2>What are Corian countertops?</h2>
+   <p>Corian is a solid-surface material used for kitchen countertops, bathroom vanities, islands and other interior surfaces. Its fabrication flexibility allows customized shapes, edges and integrated design details.</p>
+  </div>
+  <div class="cards">
+   <article class="card">
+    <div class="card-img"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=85" alt="Bright modern kitchen countertop" loading="lazy"></div>
+    <div class="card-body"><h3>Design Flexibility</h3><p>Corian can be fabricated in many colors, patterns, edge profiles and custom shapes.</p><a class="link" href="https://coriancounterstops.com/custom-corian-fabrication/">Explore custom fabrication →</a></div>
+   </article>
+   <article class="card">
+    <div class="card-img"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85" alt="Kitchen island countertop" loading="lazy"></div>
+    <div class="card-body"><h3>Easy Everyday Care</h3><p>A nonporous surface makes routine cleaning straightforward when proper care instructions are followed.</p><a class="link" href="#care">Read maintenance tips →</a></div>
+   </article>
+   <article class="card">
+    <div class="card-img"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85" alt="Elegant bathroom countertop" loading="lazy"></div>
+    <div class="card-body"><h3>Repairable Surface</h3><p>Certain scratches and other surface damage may be repairable by qualified professionals.</p><a class="link" href="https://coriancounterstops.com/corian-countertop-repair/">Explore repair →</a></div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="section alt" id="services">
+ <div class="container split">
+  <div>
+   <span class="eyebrow">Professional Services</span>
+   <h2>From fabrication to installation</h2>
+   <p>Accurate measurements, professional fabrication and proper installation help create a clean finished countertop that fits the space.</p>
+   <ul class="checks">
+    <li><a href="https://coriancounterstops.com/corian-countertop-installation/">Corian countertop installation</a></li>
+    <li><a href="https://coriancounterstops.com/corian-countertop-repair/">Corian countertop repair</a></li>
+    <li><a href="https://coriancounterstops.com/custom-corian-fabrication/">Custom Corian fabrication</a></li>
+    <li><a href="https://coriancounterstops.com/corian-countertop-replacement/">Corian countertop replacement</a></li>
+    <li><a href="https://coriancounterstops.com/michigan/">Corian countertop services in Michigan</a></li>
+   </ul>
+  </div>
+  <div class="gallery">
+   <figure><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85" alt="Modern countertop installation" loading="lazy"></figure>
+   <figure><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85" alt="Kitchen countertop detail" loading="lazy"></figure>
+   <figure><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=85" alt="Kitchen island design" loading="lazy"></figure>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="care">
+ <div class="container">
+  <div class="section-head">
+   <span class="eyebrow">Maintenance</span>
+   <h2>Simple habits help protect your countertop</h2>
+   <p>Follow manufacturer recommendations for your specific Corian product and use everyday habits that reduce unnecessary wear.</p>
+  </div>
+  <div class="features">
+   <div class="feature"><div class="number">01</div><h3>Clean Regularly</h3><p>Wipe spills and use an appropriate household cleaner with a soft cloth or sponge.</p></div>
+   <div class="feature"><div class="number">02</div><h3>Use a Cutting Board</h3><p>Cut food on a dedicated board rather than directly on the countertop surface.</p></div>
+   <div class="feature"><div class="number">03</div><h3>Protect From Heat</h3><p>Use trivets or heat-resistant pads under hot cookware.</p></div>
+   <div class="feature"><div class="number">04</div><h3>Professional Repairs</h3><p>Have significant scratches, cracks or other damage assessed by a qualified professional.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section alt">
+ <div class="container">
+  <div class="section-head">
+   <span class="eyebrow">Services</span>
+   <h2>Explore countertop services</h2>
+   <p>Visit the relevant page on the main Corian Countertops website for more information.</p>
+  </div>
+  <div class="services">
+   <a class="service" href="https://coriancounterstops.com/corian-countertop-installation/">Installation →</a>
+   <a class="service" href="https://coriancounterstops.com/corian-countertop-repair/">Repair →</a>
+   <a class="service" href="https://coriancounterstops.com/custom-corian-fabrication/">Custom Fabrication →</a>
+   <a class="service" href="https://coriancounterstops.com/corian-countertop-replacement/">Replacement →</a>
+   <a class="service" href="https://coriancounterstops.com/michigan/">Michigan →</a>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="resources">
+ <div class="container">
+  <div class="section-head">
+   <span class="eyebrow">Resource Network</span>
+   <h2>More Corian countertop resources</h2>
+   <p>Explore the supporting resources and the main Corian Countertops website.</p>
+  </div>
+  <div class="resource-grid">
+   <a class="resource" href="https://coriancounterstops.github.io/Corian-Counter-Tops/">Corian Counter Tops Guide ↗</a>
+   <a class="resource" href="https://coriancounterstops.github.io/corians/">Corian Resource ↗</a>
+   <a class="resource" href="https://coriancounterstops.netlify.app/">Corian Countertops Resource ↗</a>
+   <a class="resource" href="https://coriancountertop.netlify.app/">Corian Countertop Information ↗</a>
+   <a class="resource" href="https://corian-counter-tops-f5f219.gitlab.io/">Corian Counter Tops Guide ↗</a>
+   <a class="resource" href="https://coriancounterstops.com/">Main Corian Countertops Website ↗</a>
+  </div>
+ </div>
+</section>
+
+<section class="section alt">
+ <div class="container">
+  <div class="section-head"><span class="eyebrow">Frequently Asked Questions</span><h2>Common Corian countertop questions</h2></div>
+  <div class="faq">
+   <details><summary>Are Corian countertops easy to clean?</summary><p>Corian has a nonporous surface and routine cleaning is generally straightforward. Follow the manufacturer's recommended cleaning instructions.</p></details>
+   <details><summary>Can Corian countertops be repaired?</summary><p>Certain surface damage can be repaired or refinished depending on the type and severity of the damage.</p></details>
+   <details><summary>Can Corian be custom fabricated?</summary><p>Yes. Solid-surface fabrication can support customized shapes, edges, cutouts and other design details.</p></details>
+   <details><summary>Can Corian be used in bathrooms?</summary><p>Yes. Corian is used for bathroom countertops and vanity applications where a smooth, nonporous surface is desirable.</p></details>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="contact">
+ <div class="container contact-box">
+  <div>
+   <span class="eyebrow">Contact Us</span>
+   <h2>Have a countertop project?</h2>
+   <p>For service requests, project questions and current contact details, visit the main Corian Countertops contact page.</p>
+   <div class="actions">
+    <a class="btn btn-primary" href="https://coriancounterstops.com/contact-us/">Official Contact Page</a>
+    <a class="btn btn-light" href="https://coriancounterstops.com/">Main Website</a>
+   </div>
+  </div>
+  <form class="form" onsubmit="event.preventDefault();alert('Thanks! For production, connect this form to your preferred form service or website backend.');">
+   <label for="name">Name</label>
+   <input id="name" name="name" required placeholder="Your name">
+   <label for="email">Email</label>
+   <input id="email" name="email" type="email" required placeholder="you@example.com">
+   <label for="project">Project Type</label>
+   <select id="project" name="project">
+    <option>General Question</option><option>Installation</option><option>Repair</option><option>Custom Fabrication</option><option>Replacement</option>
+   </select>
+   <label for="message">Message</label>
+   <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
+   <button class="btn btn-primary" type="submit">Send Message</button>
+  </form>
+ </div>
+</section>
+
+</main>
+
+<footer>
+ <div class="container">
+  <div class="footer-grid">
+   <div><h3>Corian Countertops</h3><p>Helpful information about Corian countertops, installation, repair, fabrication, replacement and maintenance.</p></div>
+   <div><h3>Explore</h3><ul>
+    <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#resources">Resources</a></li><li><a href="#contact">Contact Us</a></li>
+   </ul></div>
+   <div><h3>Main Website</h3><ul>
+    <li><a href="https://coriancounterstops.com/corian-countertop-installation/">Installation</a></li>
+    <li><a href="https://coriancounterstops.com/corian-countertop-repair/">Repair</a></li>
+    <li><a href="https://coriancounterstops.com/custom-corian-fabrication/">Fabrication</a></li>
+    <li><a href="https://coriancounterstops.com/corian-countertop-replacement/">Replacement</a></li>
+    <li><a href="https://coriancounterstops.com/michigan/">Michigan</a></li>
+   </ul></div>
+  </div>
+  <div class="copyright">© 2026 Corian Countertops. All rights reserved.</div>
+ </div>
+</footer>
+
+<script>
+document.querySelectorAll('.nav-links a').forEach(function(link){
+ link.addEventListener('click',function(){
+  document.querySelector('.nav-links').classList.remove('open');
+ });
+});
+</script>
+
+</body>
+</html>
